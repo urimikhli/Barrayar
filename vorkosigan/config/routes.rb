@@ -1,5 +1,15 @@
 Vorkosigan::Application.routes.draw do
 
+  match "/cssgameengine", :to => 'games#cssgameengine'
+
+  match "/gmp",:to => 'games#gmp'
+
+  match "/jaws", :to => 'games#jaws' 
+
+  match "/entityjs", :to => 'games#entityjs'
+
+  match "/impactjs", :to => 'games#impactjs'
+
   get "users/new"
 
   root :to => "pages#home"

@@ -6154,3 +6154,425 @@ Rendered layouts/_header.html.erb (3.0ms)
 Rendered layouts/_footer.html.erb (2.0ms)
 Rendered pages/help.html.erb within layouts/application (66.0ms)
 Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/CSS_Games/" for 127.0.0.1 at Sun Jun 03 10:22:27 -0400 2012
+
+ActionController::RoutingError (No route matches "/CSS_Games"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:23:57 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (18.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (101.0ms)
+Completed 200 OK in 180ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:30:08 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 179ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/CSS_Game/icon.gif" for 127.0.0.1 at Sun Jun 03 10:30:09 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/CSS_Game/icon.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:30:45 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:32:05 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 10:43:23 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 124ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:01:13 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 132ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:03:14 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 132ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:04:37 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:16:40 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (14.0ms)
+Rendered layouts/_header.html.erb (6.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (135.0ms)
+Completed 200 OK in 188ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 03 11:22:05 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 131ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 04 09:34:36 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (31.0ms)
+Rendered layouts/_javascripts.html.erb (25.0ms)
+Rendered layouts/_header.html.erb (81.0ms)
+Rendered layouts/_footer.html.erb (19.0ms)
+Rendered pages/home.html.erb within layouts/application (422.0ms)
+Completed 200 OK in 560ms (Views: 554.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 04 23:58:25 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 151ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 05 10:05:44 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (119.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (20.0ms)
+Rendered layouts/_footer.html.erb (10.0ms)
+Rendered pages/home.html.erb within layouts/application (363.0ms)
+Completed 200 OK in 423ms (Views: 422.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 05 10:06:38 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (10.0ms)
+Rendered layouts/_javascripts.html.erb (12.0ms)
+Rendered layouts/_header.html.erb (44.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (157.0ms)
+Completed 200 OK in 482ms (Views: 281.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 22:23:38 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (80.0ms)
+Rendered pages/home.html.erb within layouts/application (108.0ms)
+Completed   in 162ms
+
+ActionView::Template::Error (undefined method `eql' for "":String):
+    9: 
+    10:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+    11:     
+    12:     <%= stylesheet_link_tag appTag if not appTag.eql("") do apptag end %>
+  app/views/layouts/_stylesheets.html.erb:12:in `_app_views_layouts__stylesheets_html_erb___699471265__4427048_436176'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___601610097__4416628_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (57.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 22:25:01 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (87.0ms)
+Completed 200 OK in 142ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/CSS_Game/icon.gif" for 127.0.0.1 at Wed Jun 06 22:25:02 -0400 2012
+
+ActionController::RoutingError (No route matches "/CSS_Game/icon.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/CSS_Game/icon.gif" for 127.0.0.1 at Wed Jun 06 22:25:02 -0400 2012
+
+ActionController::RoutingError (No route matches "/CSS_Game/icon.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 22:27:14 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/gmp" for 127.0.0.1 at Wed Jun 06 22:27:57 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Wed Jun 06 22:28:38 -0400 2012
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/about.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 22:42:23 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (12.0ms)
+Completed   in 79ms
+
+ActionView::Template::Error (undefined local variable or method `gmp_path' for #<#<Class:0xff779c28>:0xff778e40>):
+    10:   
+    11:   <li>
+    12:     <%= image_tag("/stylesheets/GMP/favicon.ico", :alt => "GMP Game engine", :class => "round") %>
+    13:     <%= link_to "GMP space invaders", gmp_path %>
+    14:   </li>
+    15: </p>
+  app/views/pages/home.html.erb:13:in `_app_views_pages_home_html_erb___252600515__4473218_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (54.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 22:51:30 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (14.0ms)
+Completed   in 82ms
+
+ActionView::Template::Error (undefined local variable or method `gmp_path' for #<#<Class:0xff77af9c>:0xff779750>):
+    10:   
+    11:   <li>
+    12:     <%= image_tag("/stylesheets/GMP/favicon.ico", :alt => "GMP Game engine", :class => "round") %>
+    13:     <%= link_to "GMP space invaders", gmp_path %>
+    14:   </li>
+    15: </p>
+  app/views/pages/home.html.erb:13:in `_app_views_pages_home_html_erb___252600515__4471778_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (55.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 22:52:02 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (139.0ms)
+Completed 200 OK in 191ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 22:53:23 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 142ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Wed Jun 06 22:53:27 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (18.0ms)
+Completed   in 70ms
+
+ActionView::Template::Error (No expansion found for :cssgameengine):
+    9: 
+    10:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+    11:     
+    12:     <%= stylesheet_link_tag appTag if not appTag.eql?("") do appTag end %>
+  app/views/layouts/_stylesheets.html.erb:12:in `_app_views_layouts__stylesheets_html_erb___699471265__4991408_436176'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___601610097__4981888_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (67.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (106.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Wed Jun 06 23:00:20 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (21.0ms)
+Completed   in 80ms
+
+ActionView::Template::Error (No expansion found for :cssgameengine):
+    9: 
+    10:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+    11:     
+    12:     <%= stylesheet_link_tag appTag if not appTag.eql?("") do appTag end %>
+  app/views/layouts/_stylesheets.html.erb:12:in `_app_views_layouts__stylesheets_html_erb___699471265__4502668_436176'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___601610097__4493378_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Wed Jun 06 23:01:15 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (19.0ms)
+Completed   in 72ms
+
+ActionView::Template::Error (No expansion found for :cssgameengine):
+    9: 
+    10:     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+    11:     
+    12:     <%= stylesheet_link_tag appTag if not appTag.eql?("") do appTag end %>
+  app/views/layouts/_stylesheets.html.erb:12:in `_app_views_layouts__stylesheets_html_erb___699471265__4929128_436176'
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___601610097__4918808_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (42.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Wed Jun 06 23:02:12 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (27.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (100.0ms)
+Completed 200 OK in 154ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/game-min.css" for 127.0.0.1 at Wed Jun 06 23:02:17 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/game-min.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 23:02:23 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (84.0ms)
+Completed 200 OK in 155ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Wed Jun 06 23:02:27 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 128ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/game-min.css" for 127.0.0.1 at Wed Jun 06 23:02:27 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/game-min.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 23:02:30 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 127ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Wed Jun 06 23:02:33 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 06 23:02:40 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
