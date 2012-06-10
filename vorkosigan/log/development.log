@@ -6576,3 +6576,2134 @@ Rendered layouts/_header.html.erb (4.0ms)
 Rendered layouts/_footer.html.erb (3.0ms)
 Rendered pages/home.html.erb within layouts/application (73.0ms)
 Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at Thu Jun 07 17:33:40 -0400 2012
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/help.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 17:33:51 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 134ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 17:33:54 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (15.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 115ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/game-min.css" for 127.0.0.1 at Thu Jun 07 17:33:55 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/game-min.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 17:48:20 -0400 2012
+
+SyntaxError (/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tIDENTIFIER, expecting kEND
+...ke');play_audio();" onKeyPress="checkEnter(event)"
+                              ^):
+  app/controllers/application_controller.rb:1
+  app/controllers/pages_controller.rb:1
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (85.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 17:49:45 -0400 2012
+
+SyntaxError (/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tCONSTANT, expecting kEND
+      "onLoad="ENGINE.init('Psylocke');play_audio()...
+                     ^
+/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tIDENTIFIER, expecting kEND
+...dio();" onKeyPress="checkEnter(event)""
+                              ^
+/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tSTRING_BEG, expecting kEND
+...onKeyPress="checkEnter(event)""
+                              ^):
+  app/controllers/application_controller.rb:1
+  app/controllers/pages_controller.rb:1
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 17:51:11 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 17:51:45 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/game-min.css" for 127.0.0.1 at Thu Jun 07 17:51:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/game-min.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 17:57:24 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 106ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/Sprites/Stage/Australia.GIF" for 127.0.0.1 at Thu Jun 07 17:57:29 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/Sprites/Stage/Australia.GIF"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/Sprites/Players/Magneto/stance1.gif" for 127.0.0.1 at Thu Jun 07 17:57:29 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/Sprites/Players/Magneto/stance1.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/Sprites/Players/Spiderman/stance1.gif" for 127.0.0.1 at Thu Jun 07 17:57:29 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/Sprites/Players/Spiderman/stance1.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/Sprites/Players/Venom/stance1.gif" for 127.0.0.1 at Thu Jun 07 17:57:29 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/Sprites/Players/Venom/stance1.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/Sprites/Players/Gambit/stance1.gif" for 127.0.0.1 at Thu Jun 07 17:57:29 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/Sprites/Players/Gambit/stance1.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/Sprites/Players/Rogue/stance1.gif" for 127.0.0.1 at Thu Jun 07 17:57:29 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/Sprites/Players/Rogue/stance1.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/stylesheets/CSS_Game/Sprites/Players/Wolverine/stance1.gif" for 127.0.0.1 at Thu Jun 07 17:57:29 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/CSS_Game/Sprites/Players/Wolverine/stance1.gif"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 17:58:58 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:07:24 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 133ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:07:48 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (9.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (4.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 130ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:10:15 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (160.0ms)
+Completed 200 OK in 214ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Thu Jun 07 18:10:25 -0400 2012
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/about.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 126ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 18:10:28 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:10:31 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (9.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 139ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:13:12 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:13:30 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:14:25 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 151ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:15:12 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (9.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 126ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:15:20 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (10.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 141ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:17:01 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:20:17 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (6.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 135ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:21:10 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (4.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (77.0ms)
+Completed 200 OK in 134ms (Views: 133.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:21:34 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:22:45 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 133ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:24:28 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (137.0ms)
+Completed 200 OK in 190ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:25:41 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (6.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:28:59 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (18.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (98.0ms)
+Completed 200 OK in 153ms (Views: 152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:30:47 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:31:48 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:32:07 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:32:24 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:32:33 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:32:42 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:32:53 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:33:22 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 119ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:33:38 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:33:59 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 137ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:34:08 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (7.0ms)
+Rendered layouts/_javascripts.html.erb (80.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (153.0ms)
+Completed 200 OK in 212ms (Views: 210.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:34:29 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 133ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:34:39 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (7.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:35:37 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (4.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (90.0ms)
+Completed 200 OK in 143ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:38:53 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 127ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ENGINE/game-min.js" for 127.0.0.1 at Thu Jun 07 18:38:54 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/game-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 18:38:55 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:39:12 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ENGINE/game-min.js" for 127.0.0.1 at Thu Jun 07 18:39:13 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/game-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 18:39:13 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:39:16 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 134ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 18:39:16 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/ENGINE/game-min.js" for 127.0.0.1 at Thu Jun 07 18:39:17 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/game-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 18:39:17 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 18:39:20 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (6.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 130ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ENGINE/game-min.js" for 127.0.0.1 at Thu Jun 07 18:39:21 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/game-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 18:39:21 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/ENGINE/game-min.js" for 127.0.0.1 at Thu Jun 07 18:39:22 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/game-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 18:39:22 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 18:42:36 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 126ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 18:42:38 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (7.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (84.0ms)
+Completed 200 OK in 135ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 18:53:36 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (23.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (119.0ms)
+Completed 200 OK in 168ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 20:45:53 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ENGINE/game-min.js" for 127.0.0.1 at Thu Jun 07 20:45:54 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/game-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 20:45:54 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 20:47:19 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (4.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 20:47:25 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/ENGINE/game-min.js" for 127.0.0.1 at Thu Jun 07 20:47:25 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/game-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/ENGINE/controls-min.js" for 127.0.0.1 at Thu Jun 07 20:47:25 -0400 2012
+
+ActionController::RoutingError (No route matches "/ENGINE/controls-min.js"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 20:53:58 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 20:55:05 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 20:57:35 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:00:43 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:01:23 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 107ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:02:17 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:03:29 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:04:00 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:04:33 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (8.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (228.0ms)
+Completed   in 274ms
+
+ActionView::Template::Error (can't convert String into Array):
+    6:     <%= render 'layouts/stylesheets' %>
+    7:     <%= render 'layouts/javascripts' %>
+    8:  </head>
+    9:  <body <%= bodyMods if not bodyMods.eql?("") %> >
+    10:     <div class="container">
+    11:     <%= render 'layouts/header' %>
+    12: 
+  app/helpers/application_helper.rb:38:in `+'
+  app/helpers/application_helper.rb:38:in `bodyMods'
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__795786339__4728098_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:05:23 -0400 2012
+
+SyntaxError (/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tSTRING_BEG
+...ENGINE.init('Psylocke');") . " " . %w( onKeyPress="checkEnte...
+                              ^):
+  app/controllers/application_controller.rb:1
+  app/controllers/games_controller.rb:1
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:06:41 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (44.0ms)
+Completed   in 100ms
+
+ActionView::Template::Error (can't convert String into Array):
+    6:     <%= render 'layouts/stylesheets' %>
+    7:     <%= render 'layouts/javascripts' %>
+    8:  </head>
+    9:  <body <%= bodyMods if not bodyMods.eql?("") %> >
+    10:     <div class="container">
+    11:     <%= render 'layouts/header' %>
+    12: 
+  app/helpers/application_helper.rb:38:in `+'
+  app/helpers/application_helper.rb:38:in `bodyMods'
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__795786339__4338918_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:07:39 -0400 2012
+
+SyntaxError (/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tCONSTANT, expecting kEND
+     "%w(onLoad="ENGINE.init('Psylocke');") + " " + %...
+                       ^
+/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tIDENTIFIER, expecting kEND
+..." + %w( onKeyPress="checkEnter(event)" )"
+                              ^
+/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tSTRING_BEG, expecting kEND
+...onKeyPress="checkEnter(event)" )"
+                              ^):
+  app/controllers/application_controller.rb:1
+  app/controllers/games_controller.rb:1
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:07:50 -0400 2012
+
+SyntaxError (/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tCONSTANT, expecting kEND
+     "%w(onLoad="ENGINE.init('Psylocke');")  %w( onKe...
+                       ^
+/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tIDENTIFIER, expecting kEND
+...")  %w( onKeyPress="checkEnter(event)" )"
+                              ^
+/home/Uri/Barrayar/vorkosigan/app/helpers/application_helper.rb:38: syntax error, unexpected tSTRING_BEG, expecting kEND
+...onKeyPress="checkEnter(event)" )"
+                              ^):
+  app/controllers/application_controller.rb:1
+  app/controllers/games_controller.rb:1
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:08:15 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:08:22 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:12:16 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:16:41 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (7.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 132ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:16:45 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:16:47 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (9.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:17:25 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 107ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:19:33 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:20:16 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 115ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:20:39 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:22:16 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 119ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:22:35 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 110ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:23:49 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cssgameengine" for 127.0.0.1 at Thu Jun 07 21:23:58 -0400 2012
+  Processing by GamesController#cssgameengine as HTML
+Rendered layouts/_stylesheets.html.erb (8.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (4.0ms)
+Rendered games/cssgameengine.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Thu Jun 07 21:25:46 -0400 2012
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (6.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/about.html.erb within layouts/application (148.0ms)
+Completed 200 OK in 205ms (Views: 204.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 21:26:03 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 170ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:28:01 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 154ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:30:02 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:30:07 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 113ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:35:29 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:39:01 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 107ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:39:54 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 21:39:59 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:40:01 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:40:47 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:44:43 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 124ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:52:12 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:52:53 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 117ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:55:04 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 21:58:50 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:05:38 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:06:28 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (14.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (6.0ms)
+Rendered games/gmp.html.erb within layouts/application (86.0ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:09:11 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:09:37 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:09:54 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:13:02 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:13:13 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:14:54 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 143ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:18:34 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 145ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:18:38 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:18:48 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:18:51 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 101ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:18:56 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (86.0ms)
+Completed 200 OK in 144ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:23:50 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (9.0ms)
+Rendered layouts/_javascripts.html.erb (53.0ms)
+Rendered games/gmp.html.erb within layouts/application (98.0ms)
+Completed   in 151ms
+
+ActionView::Template::Error (undefined local variable or method `renderJSinBody' for #<#<Class:0xff79d538>:0xff79c700>):
+    1:     <%= javascript_include_tag :defaults %>
+    2:     
+    3:     <%= javascript_include_tag appTag if not appTag.eql?("") and renderJSinBody.nil do appTag end %>
+    4: 
+  app/views/layouts/_javascripts.html.erb:3:in `_app_views_layouts__javascripts_html_erb___994646200__4429328_436016'
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___130324565__4401138_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:25:07 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (16.0ms)
+Rendered games/gmp.html.erb within layouts/application (57.0ms)
+Completed   in 112ms
+
+ActionView::Template::Error (undefined local variable or method `renderJSinBody' for #<#<Class:0xff7ba1b0>:0xff7b9378>):
+    1:     <%= javascript_include_tag :defaults %>
+    2:     
+    3:     <%= javascript_include_tag appTag if not appTag.eql?("") and renderJSinBody.nil do appTag end %>
+    4: 
+  app/views/layouts/_javascripts.html.erb:3:in `_app_views_layouts__javascripts_html_erb___994646200__4379728_436016'
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___130324565__4342348_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:25:10 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (64.0ms)
+Rendered games/gmp.html.erb within layouts/application (104.0ms)
+Completed   in 195ms
+
+ActionView::Template::Error (undefined local variable or method `renderJSinBody' for #<#<Class:0xff6ac3e0>:0xff6ab5a8>):
+    1:     <%= javascript_include_tag :defaults %>
+    2:     
+    3:     <%= javascript_include_tag appTag if not appTag.eql?("") and renderJSinBody.nil do appTag end %>
+    4: 
+  app/views/layouts/_javascripts.html.erb:3:in `_app_views_layouts__javascripts_html_erb___994646200__4922928_436016'
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___130324565__4894868_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (49.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:25:17 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (60.0ms)
+Rendered games/gmp.html.erb within layouts/application (103.0ms)
+Completed   in 161ms
+
+ActionView::Template::Error (undefined local variable or method `renderJSinBody' for #<#<Class:0xff6d7ef0>:0xff6d7040>):
+    1:     <%= javascript_include_tag :defaults %>
+    2:     
+    3:     <%= javascript_include_tag appTag if not appTag.eql?("") and renderJSinBody.nil do appTag end %>
+    4: 
+  app/views/layouts/_javascripts.html.erb:3:in `_app_views_layouts__javascripts_html_erb___994646200__4838488_436016'
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___130324565__4806738_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (47.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:26:40 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered games/gmp.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 103ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:28:16 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:28:32 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 135ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:28:46 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 135ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:28:52 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 130ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:28:57 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 106ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:28:58 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:29:25 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Jun 07 22:29:39 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 134ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:30:25 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:31:03 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 22:31:12 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 124ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 23:55:46 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Thu Jun 07 23:58:41 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (8.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 141ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 12:24:16 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 115ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 12:29:00 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 08 19:22:00 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered pages/home.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 132ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:22:03 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Jun 08 19:22:47 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 117ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:22:49 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (7.0ms)
+Rendered layouts/_header.html.erb (6.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 135ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:23:41 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (73.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered games/gmp.html.erb within layouts/application (139.0ms)
+Completed 200 OK in 186ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:24:25 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:24:50 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (126.0ms)
+Completed 200 OK in 172ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:25:15 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:30:16 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:32:25 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 123ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:32:56 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered games/gmp.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 105ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:35:15 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:37:13 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 109ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:56:25 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:57:42 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:59:13 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (5.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 19:59:51 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 20:00:54 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 20:01:25 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (7.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (77.0ms)
+Completed 200 OK in 124ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 20:02:07 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 113ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Fri Jun 08 20:10:10 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 109ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:32:51 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 118ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:40:22 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:40:41 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:41:07 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:42:02 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 116ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:43:34 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (5.0ms)
+Rendered games/gmp.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 116ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:48:49 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:50:31 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:51:58 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 21:54:30 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:13:51 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:14:27 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:15:01 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:19:21 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:22:02 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 128ms (Views: 127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 09 22:22:13 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 136ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:23:22 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (75.0ms)
+Rendered games/gmp.html.erb within layouts/application (139.0ms)
+Completed 200 OK in 188ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:24:06 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (70.0ms)
+Completed 200 OK in 113ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 09 22:24:33 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (76.0ms)
+Completed 200 OK in 131ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:26:16 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Jun 09 22:26:46 -0400 2012
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 121ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:28:51 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (4.0ms)
+Rendered games/gmp.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 126ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:29:18 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 104ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:29:49 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (11.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 138ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:31:47 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:47:20 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 202ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:49:52 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (6.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 136ms (Views: 136.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:51:07 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+Rendered layouts/_javascripts.html.erb (72.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (132.0ms)
+Completed 200 OK in 181ms (Views: 179.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:53:00 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (8.0ms)
+Rendered layouts/_javascripts.html.erb (6.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (3.0ms)
+Rendered games/gmp.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 145ms (Views: 143.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:54:00 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (73.0ms)
+Rendered games/gmp.html.erb within layouts/application (155.0ms)
+Completed 200 OK in 210ms (Views: 209.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 22:56:28 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 23:00:17 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 101ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 23:04:18 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 117ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 23:05:40 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 114ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/gmp" for 127.0.0.1 at Sat Jun 09 23:07:25 -0400 2012
+  Processing by GamesController#gmp as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_javascripts.html.erb (5.0ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_footer.html.erb (2.0ms)
+Rendered games/gmp.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 101ms (Views: 101.0ms | ActiveRecord: 0.0ms)
