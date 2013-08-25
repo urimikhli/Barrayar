@@ -1,4 +1,4 @@
 Barrayar
 ========
 
-Rails server for learning HTML5/javascript game development
+THis is just project space to preserve some of the modules I download and wrok with in order repos
