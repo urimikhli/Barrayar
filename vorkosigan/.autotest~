@@ -1,3 +1,0 @@
-#require 'autotest/snarl'
-require "autosnarl"
-require "test_notifier/runner/autotest"
